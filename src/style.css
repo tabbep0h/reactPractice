@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content:flex-end;
+    height: 100px;
+    background-color: rgb(192, 196, 201);
+    align-items: center;
+    padding: 10px;
+}
+.product{
+    padding: 20px;
+    background-color: rgb(231, 215, 195);
+    margin-bottom: 10px;
+    max-width: 300px;   
+}
+.form{
+    background-color: rgb(192, 196, 201);
+    padding: 10px;
+    max-width: 400px;
+}
+.title{
+    color: black;
+    transition: 1s;
+    text-decoration: none;
+}
+.title:hover{
+    transform: scale(105%);
+}
+.redir{
+    gap:15px;
+    display: flex;
+}
